@@ -1,0 +1,51 @@
+.quiz{
+    margin: 15px;
+}
+.quiz_heading{
+ font-size: 30px;
+ font-weight: bold;
+}
+.quiz-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .quiz-footer-left {
+    width: 100%;
+    display: flex;
+    float: left;
+
+  }
+  .icon_text{
+    width: 50%;
+    margin: 5px;
+    padding-left: 3px;
+  }
+  .icon_info{
+    text-align: center;
+  }
+  
+  .icon_size{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    float: left;
+  }
+  .count_reg{
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  
+  .quiz-footer-right div {
+    font-size: 16px;
+  }
+  .read_more{
+    color: rgb(33, 117, 33);
+  }
+  .quiz_description{
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }

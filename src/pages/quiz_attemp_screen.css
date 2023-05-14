@@ -1,0 +1,140 @@
+.quiz-attempt-screen {
+    max-width: 800px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(214, 219, 223);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .question_body {
+  bottom: 0;
+  position: relative;
+  margin-top: 250px;
+}
+  .options{
+    margin-bottom: 20px;
+  }
+  .option{
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  .option-label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+  }
+  .option_ans{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+   margin-right: 50px;
+  }
+  .question-info {
+    font-size: 18px;
+    color: white;
+    border-radius: 13px;
+    padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+    background-color: rgb(75, 144, 41);
+  }
+  .option-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0;
+    border: 1px solid;
+    margin: 5px;
+  }
+  .option.selected .option-number {
+    background-color: rgb(32, 197, 79);
+    color: white;
+    border-color: rgb(28, 27, 28);
+  }
+  .radio_btn{
+    order: 2;
+    appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  outline: none;
+  transition-duration: 0.3s;
+  }
+  .radio_btn:checked {
+    /* Change the color when the radio button is checked */
+    border-color: rgb(44, 41, 44);
+    background-color: rgb(82, 202, 60);
+  }
+  .question-number{
+   
+  }
+  .question-count {
+    
+  }
+  
+  .remaining-time {
+    font-size: 18px;
+    color: white;
+    border-radius: 13px;
+    padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+    background-color: rgb(145, 56, 158);
+  }
+  
+  .question {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.submit-button{
+  flex: 0 0 auto;
+  height: 40px;
+  width: 130px;
+  background-color: purple;
+  color: white;
+  border: none;
+  align-items: center;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.next-button{
+  flex: 0 0 auto;
+  height: 40px;
+  width: 130px;
+  background-color: purple;
+  color: white;
+  border: none;
+  align-items: center;
+  border-radius: 30px;
+  font-size: 16px;
+}

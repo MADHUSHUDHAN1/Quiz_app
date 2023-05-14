@@ -1,0 +1,22 @@
+.quiz-feature{
+    margin: 15px;
+}
+.quiz_head{
+    font-size: 20px;
+    font-weight: bold;
+}
+.q_item{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.quiz_list{
+    display: flex;
+    flex-direction: column;
+}
+.icon_size{
+    width: 25px;
+    height: 25px;
+  }
+  .icon_info{
+    text-align:left;
+  }
